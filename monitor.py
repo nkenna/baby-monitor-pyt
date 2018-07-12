@@ -141,7 +141,7 @@ publish_success = 'publish success'
 mode_change_auto = 'auto mode'
 mode_change_manual = 'manual mode'
 
-noise_count = 0;
+noise_count = 0
 sound = 0
 Signal  = 0
 
@@ -149,8 +149,8 @@ Signal  = 0
 
 # initialize pubnub
 pnconfig = PNConfiguration()
-pnconfig.subscribe_key = 'sub-c-a8169944-3833-11e7-9361-0619f8945a4f'
-pnconfig.publish_key = 'pub-c-6e287234-f550-4a51-a25a-5fe510f91dd6'
+pnconfig.subscribe_key = '*****************'
+pnconfig.publish_key = '*******************'
 pnconfig.reconnect_policy = PNReconnectionPolicy.LINEAR
 
 pubnub = PubNub(pnconfig)
